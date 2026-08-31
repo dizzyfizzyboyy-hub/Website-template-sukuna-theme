@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- EDIT: tab title + the description that shows up in Google -->
+<title>Your Name — Designer &amp; Developer</title>
+<meta name="description" content="Your Name — designer and developer in Yogyakarta. I build websites that are fast, clear, and a little bit playful.">
+<meta name="theme-color" content="#0b0b0d">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23e13b2a'/></svg>">
+<link rel="stylesheet" href="font-faces.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- all text on this page lives in index.html, section by section.
+     spots you'd normally change are marked with EDIT comments right above them.
+     images live in assets/images/ — drop your file over the placeholder and
+     you're done, or rename it and update the matching <img> tag. -->
+<header class="site-header" id="top">
+  <nav class="nav container" aria-label="Main">
+    <!-- EDIT: brand name in the top-left corner -->
+    <a class="brand" href="#top">
+      <span class="seal" aria-hidden="true">Y</span>
+      <span class="brand-name">Your Name</span>
+    </a>
+    <!-- EDIT: add or remove nav links here (href should match a section id below) -->
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <!-- EDIT: the little status pill -->
+        <p class="badge"><span class="badge-dot"></span>Available for new projects</p>
+
+        <!-- EDIT: your name and what you do. big text, hard to miss -->
+        <h1 class="hero-title">
+          Your Name<span class="hero-dot">.</span>
+        </h1>
+        <p class="hero-role">Designer &amp; Developer</p>
+
+        <!-- EDIT: one or two lines about what you actually do -->
+        <p class="hero-lede">
+          I design and build websites that are fast, clear, and a little bit playful —
+          for studios, founders, and small teams that want to ship something good.
+        </p>
+
+        <div class="hero-actions">
+          <!-- EDIT: point these wherever you want -->
+          <a class="btn btn-red" href="#work">See my work</a>
+          <a class="btn btn-ghost" href="mailto:hello@youremail.com">hello@youremail.com</a>
+        </div>
+
+        <!-- EDIT: your social links — leave href="#" if you don't have one -->
+        <ul class="hero-socials">
+          <li><a href="#" title="GitHub">GitHub</a></li>
+          <li><a href="#" title="LinkedIn">LinkedIn</a></li>
+          <li><a href="#" title="X / Twitter">X</a></li>
+          <li><a href="#" title="Instagram">Instagram</a></li>
+        </ul>
+      </div>
+
+      <!-- EDIT: put your own photo in assets/images/photo.svg (portrait ~ 600x750) -->
+      <figure class="hero-figure reveal">
+        <img src="assets/images/photo.svg" alt="Portrait of Your Name" width="600" height="750">
+        <figcaption>
+          <!-- EDIT: short caption under the photo, can be anything -->
+          <span>Your Name</span>
+          <!-- EDIT: where you're based (or delete the line) -->
+          <small>Yogyakarta, ID</small>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="section" id="work">
+    <div class="container">
+      <p class="sec-label">01 · Work</p>
+
+      <!-- copy a whole <article> block to add a project, edit the bits inside -->
+      <div class="work-grid reveal">
+
+        <article class="card">
+          <div class="card-media">
+            <!-- EDIT: image per project lives in assets/images/ -->
+            <img src="assets/images/project-1.svg" alt="Screenshot of Brand Site" loading="lazy">
+            <span class="card-num">01</span>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <!-- EDIT: title -->
+              <h3>Brand site</h3>
+              <!-- EDIT: year + type, or drop the span entirely -->
+              <span class="card-tag">2024 · Web</span>
+            </div>
+            <!-- EDIT: one-line description -->
+            <p class="card-desc">A clean marketing site for a design studio — sharp copy, zero fluff.</p>
+            <div class="card-links">
+              <!-- EDIT: live + repo urls -->
+              <a href="#" target="_blank" rel="noopener">Live</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <img src="assets/images/project-2.svg" alt="Screenshot of Storefront" loading="lazy">
+            <span class="card-num">02</span>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <h3>Storefront</h3>
+              <span class="card-tag">2024 · E-commerce</span>
+            </div>
+            <p class="card-desc">A fast storefront for a local coffee brand, with checkout nobody hates.</p>
+            <div class="card-links">
+              <a href="#" target="_blank" rel="noopener">Live</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <img src="assets/images/project-3.svg" alt="Screenshot of Design System" loading="lazy">
+            <span class="card-num">03</span>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <h3>Design system</h3>
+              <span class="card-tag">2023 · System</span>
+            </div>
+            <p class="card-desc">One source of truth for colors, type, and components across two apps.</p>
+            <div class="card-links">
+              <a href="#" target="_blank" rel="noopener">Live</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <img src="assets/images/project-4.svg" alt="Screenshot of Mobile App" loading="lazy">
+            <span class="card-num">04</span>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <h3>Mobile app UI</h3>
+              <span class="card-tag">2023 · Product</span>
+            </div>
+            <p class="card-desc">Screens and flow for a habit tracker that people actually open.</p>
+            <div class="card-links">
+              <a href="#" target="_blank" rel="noopener">Case study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <img src="assets/images/project-5.svg" alt="Screenshot of Marketing Site" loading="lazy">
+            <span class="card-num">05</span>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <h3>Launch campaign</h3>
+              <span class="card-tag">2022 · Campaign</span>
+            </div>
+            <p class="card-desc">Landing page for a product launch — short, loud, on-message.</p>
+            <div class="card-links">
+              <a href="#" target="_blank" rel="noopener">Live</a>
+              <a href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <img src="assets/images/project-6.svg" alt="Screenshot of Portfolio" loading="lazy">
+            <span class="card-num">06</span>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <h3>Personal site</h3>
+              <span class="card-tag">2022 · Web</span>
+            </div>
+            <p class="card-desc">A tiny corner of the internet for essays, photos, and links.</p>
+            <div class="card-links">
+              <a href="#" target="_blank" rel="noopener">Visit</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="sec-label">02 · About</p>
+      <div class="about-grid reveal">
+        <div class="about-lead">
+          <!-- EDIT: tldr about yourself. the first <strong> becomes the red bit -->
+          <h2><strong>Fast, clear, a little bit playful.</strong> That's how I approach every site I touch.</h2>
+          <!-- EDIT: 2-4 short paragraphs. delete or add freely -->
+          <p>I'm a designer and developer with a foot in both camps — I can sketch the idea on a whiteboard and then build it without losing the feeling.</p>
+          <p>Past few years I've worked with small teams on brand sites, product UI, and the occasional rescue mission for an old codebase. Happy to do one of those for you next.</p>
+        </div>
+        <dl class="facts">
+          <!-- EDIT: the quick facts on the side -->
+          <div class="fact">
+            <dt>Based in</dt>
+            <dd>Yogyakarta, ID</dd>
+          </div>
+          <div class="fact">
+            <dt>Focus</dt>
+            <dd>Design · Code · No-code</dd>
+          </div>
+          <div class="fact">
+            <dt>Currently</dt>
+            <dd>Open to freelance</dd>
+          </div>
+          <div class="fact">
+            <dt>Contact</dt>
+            <dd><a href="mailto:hello@youremail.com">hello@youremail.com</a></dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="sec-label">03 · Skills</p>
+      <div class="skills reveal">
+        <!-- EDIT: rename the groups, swap the chips in and out -->
+        <div class="skill-group">
+          <h3>Design</h3>
+          <ul>
+            <li>UI / UX</li>
+            <li>Branding</li>
+            <li>Illustration</li>
+            <li>Prototyping</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Code</h3>
+          <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript</li>
+            <li>Tailwind</li>
+            <li>Webflow</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Photoshop</li>
+            <li>Notion</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="container">
+      <p class="sec-label">04 · Experience</p>
+      <!-- newest first, copy a <li> to add a job -->
+      <ol class="timeline reveal">
+        <li>
+          <!-- EDIT: role, place, dates -->
+          <div class="tl-head">
+            <h3>Senior Designer</h3>
+            <span>Studio A · 2022 — now</span>
+          </div>
+          <!-- EDIT: 1-3 bullets -->
+          <p>Leading design for two client websites and one internal product.</p>
+        </li>
+        <li>
+          <div class="tl-head">
+            <h3>Product Designer</h3>
+            <span>Company B · 2020 — 2022</span>
+          </div>
+          <p>Shipped a design system and cut the time to ship a feature in half.</p>
+        </li>
+        <li>
+          <div class="tl-head">
+            <h3>UX Intern</h3>
+            <span>Startup C · 2019</span>
+          </div>
+          <p>Ran usability tests, redrew the onboarding flow, learned what not to name a branch.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <p class="sec-label">05 · Words</p>
+      <div class="quotes reveal">
+        <!-- copy a <figure> to add another quote -->
+        <figure class="quote">
+          <blockquote>„Our site finally looks like us. Fast, sharp, no filler."</blockquote>
+          <figcaption><span>Client Name</span><small>Founder, Some Studio</small></figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>„Picked up our mess of an old site and made it boring in the best way."</blockquote>
+          <figcaption><span>Client Name</span><small>Manager, Some Company</small></figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>„Sent the brief on Friday, had a working page by Tuesday."</blockquote>
+          <figcaption><span>Client Name</span><small>Founder, Small Startup</small></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-contact" id="contact">
+    <div class="container reveal">
+      <!-- EDIT: the big closing line -->
+      <h2 class="contact-title">Have something in mind?</h2>
+      <p class="contact-sub">Say hi — I usually reply within a day.</p>
+      <!-- EDIT: your real email -->
+      <a class="btn btn-red btn-big" href="mailto:hello@youremail.com">hello@youremail.com</a>
+      <!-- EDIT: repeat the social links from the top if you want to -->
+      <ul class="hero-socials contact-socials">
+        <li><a href="#" title="GitHub">GitHub</a></li>
+        <li><a href="#" title="LinkedIn">LinkedIn</a></li>
+        <li><a href="#" title="X / Twitter">X</a></li>
+        <li><a href="#" title="Instagram">Instagram</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <!-- EDIT: name again, or a koan, whatever -->
+    <span>© <span id="year">2025</span> Your Name</span>
+    <a class="back-top" href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

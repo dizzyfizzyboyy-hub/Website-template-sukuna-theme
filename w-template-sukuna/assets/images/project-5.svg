@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#17171a"/>
+  <rect x="0" y="0" width="800" height="80" fill="#e13b2a" opacity="0.14"/>
+  <rect x="0" y="260" width="800" height="80" fill="#e13b2a" opacity="0.14"/>
+  <text x="40" y="452" font-family="monospace" font-size="17" letter-spacing="2" fill="#e13b2a">PROJECT 05</text>
+  <text x="740" y="452" text-anchor="end" font-family="monospace" font-size="17" letter-spacing="2" fill="#6e747c">assets/images/project-5.svg</text>
+</svg>
